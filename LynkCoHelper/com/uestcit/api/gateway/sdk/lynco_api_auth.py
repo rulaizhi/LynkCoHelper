@@ -34,7 +34,10 @@ class LyncoApiAuth(requests.auth.AuthBase):
         
         request.headers.update(self.build_headers(request))
         return request
-
+    
+    '''
+    
+    '''
     def build_headers(self, request):
         header_params = list(request.headers.keys())
         headers = dict()

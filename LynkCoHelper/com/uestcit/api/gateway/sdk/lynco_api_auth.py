@@ -33,6 +33,7 @@ class LyncoApiAuth(requests.auth.AuthBase):
     def __call__(self, request):
         
         request.headers.update(self.build_headers(request))
+
         return request
     
     '''

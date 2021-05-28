@@ -1,7 +1,7 @@
-// 该文件存放需要操作的账号密码，一个json对象一个账号密码
-[
-  {
-    "account": "15528116260",
-    "password": "jingJING961102"
+{
+  "aes_key": "WkdJeU1UTTVOVFl4WXpsbVpUQTJPQT09",
+  "api_geteway": {
+    "app_key": "MjAzNzYwNDE2",
+    "app_secret": "ZTFtc2w5YXFkMTAxZ2ZjanBvODczaHJzNWpnNzUyb2c="
   }
-]
+}

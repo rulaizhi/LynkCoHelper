@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3137c07e-f2d0-4282-b916-229fd14dec2f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LynkCoHelper.py</StartupFile>
+    <StartupFile>lynkco_helper.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="com\uestcit\api\gateway\sdk\auth\aes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="com\uestcit\api\gateway\sdk\auth\md5_tool.py" />
     <Compile Include="com\uestcit\api\gateway\sdk\auth\sha_hmac256.py" />
     <Compile Include="com\uestcit\api\gateway\sdk\auth\signature_composer.py" />
@@ -38,13 +41,20 @@
     <Compile Include="com\uestcit\api\__init__.py" />
     <Compile Include="com\uestcit\__init__.py" />
     <Compile Include="com\__init__.py" />
-    <Compile Include="LynkCoHelper.py" />
-    <Compile Include="LynkCoRequest.py">
+    <Compile Include="lynco_wrok.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lynkco_helper.py" />
+    <Compile Include="lynkco_app_request.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.json" />
+    <Content Include="account.json" />
+    <Content Include="readme.md">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="com\" />

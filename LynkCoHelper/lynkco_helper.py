@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 
+import sys
 import os
 import json
 from lynco_wrok import lynco_wrok
 
 def main():
     # 加载应用配置
-    config = json.load(open('./config.json'))
+    config = json.load(open(sys.path[0] + '/config.json'))
     # 加载账号配置
-    account_list = json.load(open('./account.json'))
+    account_list = json.load(open(sys.path[0] + '/account.json'))
     # 定义线程数组
     threads = []
     # 遍历账号列表，每个账号开启一个线程进行处理

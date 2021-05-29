@@ -5,7 +5,7 @@ name: LynkCoHelperRunner
 
 on:
   schedule:
-    - cron: '5 1 * * *'
+  - cron: "10 1 * * *"
   workflow_dispatch:
 
 jobs:

@@ -4,7 +4,6 @@
 name: LynkCoHelperRunner
 
 on:
-  push:
   schedule:
     - cron: '5 1 * * *'
   workflow_dispatch:

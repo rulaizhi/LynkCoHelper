@@ -16,7 +16,7 @@
 # 使用方法
 
 ```
-1.打开[项目地址](https://github.com/a437936609/LynkCoHelper)，点击右边的Fork，Fork到自己的账号（建议Fork到自己账号后，将项目属性改为私有，就只有自己能够看到配置的账号密码）
+1.打开[项目地址](https://github.com/a437936609/LynkCoHelper)，点击右边的Fork，Fork到自己的账号（不放心账号密码安全的，建议克隆项目，自己建立私仓）
 
 2.到自己Fork后的项目，修改LynkCoHelper下的account.json文件，填写自己的领克APP账户密码，填写完点击保存
 
